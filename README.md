@@ -1,6 +1,7 @@
 # FAST CAMPUS IOS REPORT
 
-
+* 190405(금): 로그인 페이지 구현하기
+* 190404(목): UserDefaults, Singleton, Delegate
 * 190402(화): Type Casting, Segue
 * 190326(화): TextField, ViewController
 * 190325(월): AlertController, Frame VS Bousds
