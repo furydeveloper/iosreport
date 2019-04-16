@@ -18,7 +18,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController, SecondViewControllerDelegate {
+class FirstViewController: UIViewController {
 
     @IBOutlet weak var textField: UITextField!
     
@@ -53,9 +53,8 @@ class FirstViewController: UIViewController, SecondViewControllerDelegate {
     
 }
 
-extension FirstViewController: UITextFieldDelegate {
+extension FirstViewController: SecondViewControllerDelegate {
     func changeLable(_ label: UILabel?) {
-        
         guard let text = textField.text else { return }
         label?.text = text
     }
