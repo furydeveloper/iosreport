@@ -1,5 +1,9 @@
 # FAST CAMPUS IOS REPORT
 
+* 190415(화): 테이블뷰(TableView) - 3
+* 190415(화): 테이블뷰(TableView) - 2
+* 190412(금): 테이블뷰(TableView)
+* 190411(목): 오토레이아웃(Autolayout)
 * 190405(금): 로그인 페이지 구현하기(FastCampus), 친구추가하기(TabBar, Navigation, Delegate)
 * 190404(목): UserDefaults, Singleton, Delegate
 * 190402(화): Type Casting, Segue
