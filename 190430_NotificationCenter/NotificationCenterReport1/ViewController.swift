@@ -99,7 +99,7 @@ class ViewController: UIViewController {
         let a = CGFloat(alphaSlider.value)
 //        let background = UIColor(red: r, green: g, blue: b, alpha: a)
         notiCenter.post(
-            name: ViewController.changeBackgroundColor,
+            name: SecondViewController.changeBackgroundColor,
             object: sender,
             userInfo: ["color": UIColor(red: r, green: g, blue: b, alpha: a)]
         )

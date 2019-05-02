@@ -10,7 +10,7 @@ import UIKit
 
 private let notiCenter = NotificationCenter.default
 
-extension ViewController {
+extension SecondViewController {
     static var changeBackgroundColor: Notification.Name {
         return Notification.Name("ChangeBackgroundColor")
     }
@@ -33,7 +33,7 @@ class SecondViewController: UIViewController {
         notiCenter.addObserver(
             self,
             selector: #selector(changeBackgroundColor(_:)),
-            name: ViewController.changeBackgroundColor,
+            name: SecondViewController.changeBackgroundColor,
             object: nil
         )
     }
