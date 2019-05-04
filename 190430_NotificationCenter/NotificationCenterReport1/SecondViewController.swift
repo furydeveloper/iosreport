@@ -29,7 +29,7 @@ class SecondViewController: UIViewController {
     }
     
 
-    private func addObserverFunc() {
+    func addObserverFunc() {
         notiCenter.addObserver(
             self,
             selector: #selector(changeBackgroundColor(_:)),

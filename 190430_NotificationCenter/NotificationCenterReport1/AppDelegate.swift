@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         let fVC = ViewController()
         let sVC = SecondViewController()
-        sVC.viewDidLoad()
+        sVC.addObserverFunc()
         
         fVC.tabBarItem = UITabBarItem(title: "Item", image: nil, tag: 0)
         sVC.tabBarItem = UITabBarItem(title: "Item", image: nil, tag: 1)
