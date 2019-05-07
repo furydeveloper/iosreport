@@ -130,6 +130,7 @@ extension CategoryViewController: UITableViewDataSource {
 extension CategoryViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let productVC = ProductViewController()
+        productVC.currentCategory = indexPath.row
         dominoAllData.currentCategory = indexPath.row
         navigationController?.pushViewController(productVC, animated: true)
     }

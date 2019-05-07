@@ -21,7 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let fVC = ViewController()
         let sVC = SecondViewController()
         let tabBarController = UITabBarController()
-        sVC.view.backgroundColor = .white
         
         fVC.tabBarItem = UITabBarItem(title: "Item", image: nil, tag: 0)
         sVC.tabBarItem = UITabBarItem(title: "Item", image: nil, tag: 1)
