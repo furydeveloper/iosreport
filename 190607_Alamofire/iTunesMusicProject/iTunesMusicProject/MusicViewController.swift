@@ -68,8 +68,6 @@ class MusicViewController: UIViewController {
         searchController.searchBar.placeholder = "Search Songs"
         // 검색할때 뒷 화면을 흐리게 표현할것인지
         searchController.obscuresBackgroundDuringPresentation = false
-        
-        searchController
     }
     
     private func configure() {
